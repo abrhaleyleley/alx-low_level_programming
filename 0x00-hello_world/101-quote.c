@@ -9,6 +9,8 @@
  */
 int main(void)
 {
-write(stderr, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 59);
-return (1);
+fprintf(stderr, "and that piece of art is useful\"");
+fprintf(stderr,"\ - Dora korpar, 2015-10-19");
+putchar(10);
+return (0);
 }
