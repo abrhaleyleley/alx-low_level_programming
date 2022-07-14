@@ -1,9 +1,9 @@
 #include "main.h"
  /**
-  * _strcat -> is afunction of two strings
+  * _strcat -> this is a function strcat
   * @dest: is 1st parameter
   * @src: is 2nd parameter
-  * Return: a character
+  * Return: a string
   */
 char *_strcat(char *dest, char *src)
 {
@@ -11,11 +11,11 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[len])
 		len++;
-	for (i = 0; src[i] !='\0'; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
 		dest[len] = src[i];
 		len += 1;
 	}
 	dest[len] = '\0';
-	return (des);
+	return (dest);
 }
