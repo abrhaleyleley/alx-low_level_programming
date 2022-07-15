@@ -10,7 +10,6 @@ Void reverse_array(int *a, int n)
 {
 	int *p, i, aux, k;
 
-	aux = 1;
 	p = a;
 	for (i = 0; i < n; i++)
 		p++;
